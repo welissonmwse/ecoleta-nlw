@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #cecece;
+}
+a{
+    text-decoration: none;
+}
+
+#page-home{
+    height: 100vh;
+    background-image: url('../assets/home-background.svg') no-repeat;
+    background-position: 35vw bottom;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.content header{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content header a{
+    display: flex;
+    color: #322153;
+}
+.content header a span{
+    display: flex;
+    margin-right: 16px;
+    background-image: url('../assets/log-in.svg');
+    width: 20px;
+    height: 20px;
+}
